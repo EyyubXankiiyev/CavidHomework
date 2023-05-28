@@ -1,0 +1,43 @@
+section {
+    background-image: url('../../../public/IMAGE.svg');
+    height: 850px;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-content: start;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    padding: 0 200px;
+    gap: 40px;
+    h1 {
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        letter-spacing: 0.22px;
+        color: #292F36;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+    }
+
+    button {
+        background: #292F36;
+        border: 2px solid #292F36;
+        border-radius: 18px;
+        width: 207px;
+        height: 71px;
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.72px;
+            color: #FFFFFF;
+        }
+    }
+}

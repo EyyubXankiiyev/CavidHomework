@@ -1,0 +1,53 @@
+#CallMe {
+    height: 500px;
+    border: 1p solid black;
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+
+
+    .text {
+
+
+        h1 {
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 65px;
+            letter-spacing: 0.22px;
+            color: #292F36;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            letter-spacing: 0.22px;
+            color: #4D5053;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #292F36;
+            border: 2px solid #292F36;
+            border-radius: 18px;
+            width: 207px;
+            height: 71px;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+
+            p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 0.72px;
+                color: #FFFFFF;
+                margin-top: 20px;
+            }
+        }
+    }
+}
